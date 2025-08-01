@@ -4,10 +4,62 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+    .fixed-button {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <div class="container mt-4">
+
+    <h2 class="fw-bold">Welcome to Sync5</h2>
+
+    <!-- Card Group / Deck -->
+    <div class="card-deck d-flex flex-column gap-3 mt-3">
+
+      <!-- Card 1: New Features -->
+      <div class="card">
+        <div class="card-header bg-light">
+          New Features
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Mobile and Tablet support</h5>
+          <p class="card-text">With this new update you will be able to sync your work across large number of platforms.</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+
+      <!-- Card 2: Alert -->
+      <div class="card bg-danger text-white">
+        <div class="card-header">
+          Alert
+        </div>
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Node Dead</h5>
+          <p class="card-text">Node 5 (east-us) is offline for last 12 days.</p>
+        </div>
+      </div>
+
+      <!-- Card 3: News -->
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="card-img-top" alt="underwater">
+        <div class="card-body">
+          <h5 class="card-title fw-semibold">President under Pressure</h5>
+          <p class="card-text">The US president is under pressure to respond to a widespread cyber-attack linked to China.</p>
+          <p class="card-text"><small class="text-muted">Last updated 12 mins ago</small></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Submit Button -->
+  <button class="btn btn-danger fixed-button">Submit</button>
     <script type="text/javascript" src="./script.js">
 </script>
 
